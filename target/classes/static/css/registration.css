@@ -1,0 +1,42 @@
+.registerBox {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+.registerBox > *{
+    margin: auto;
+}
+
+
+@media (min-width: 576px) {
+    .registerBox{
+        width: 100%;
+    }
+    .registerBox > *{
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .registerBox{
+        width: 100%;
+    }
+
+    .registerBox > *{
+        margin: auto;
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) {
+    .registerBox{
+        width: 80%;
+        border: red solid 3px;
+    }
+
+    .registerBox > *{
+        margin: auto;
+        width: 50%;
+    }
+}

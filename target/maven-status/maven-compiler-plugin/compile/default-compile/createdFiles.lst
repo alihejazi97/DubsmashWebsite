@@ -1,0 +1,10 @@
+com\ali\database\model\Dubsmash.class
+com\ali\security\SecurityConfig.class
+com\ali\Application.class
+com\ali\controller\TokenImp.class
+com\ali\security\service\SecurityService.class
+com\ali\controller\controller.class
+com\ali\controller\Registration_Login.class
+com\ali\database\model\User.class
+com\ali\controller\TokenServiceImp.class
+com\ali\database\repository\StudentRepositry\StudentRepository.class

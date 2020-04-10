@@ -1,0 +1,81 @@
+/* responsive font size */
+
+video {
+    width: 100%    !important;
+    height: auto   !important;
+}
+
+@media (max-width: 1200px) {
+    legend {
+      font-size: calc(1.275rem + 0.3vw);
+    }
+    h1,
+    .h1 {
+      font-size: calc(1.375rem + 1.5vw);
+    }
+    h2,
+    .h2 {
+      font-size: calc(1.325rem + 0.9vw);
+    }
+    h3,
+    .h3 {
+      font-size: calc(1.3rem + 0.6vw);
+    }
+    h4,
+    .h4 {
+      font-size: calc(1.275rem + 0.3vw);
+    }
+    .display-1 {
+      font-size: calc(1.725rem + 5.7vw);
+    }
+    .display-2 {
+      font-size: calc(1.675rem + 5.1vw);
+    }
+    .display-3 {
+      font-size: calc(1.575rem + 3.9vw);
+    }
+    .display-4 {
+      font-size: calc(1.475rem + 2.7vw);
+    }
+    .close {
+      font-size: calc(1.275rem + 0.3vw);
+    }
+  }
+
+@media (min-width: 0px) {
+    #navbar_brand_java {
+        width: 20px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #navbar_brand_java {
+        width: 25px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #navbar_brand_java {
+        width: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #navbar_brand_java {
+        width: 35px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #navbar_brand_java {
+        width: 45px;
+    }
+}
+
+body {
+    min-height: 100vh;
+}
