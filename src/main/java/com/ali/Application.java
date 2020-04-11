@@ -33,12 +33,12 @@ public class Application {
         springApplication.run(args);
     }
 
-    @Bean(destroyMethod = "stop")
-    RedisServer getRedisServer(@Value("${spring.redis.port}") int redisPort) {
-        RedisServerBuilder serverBuilder = new RedisServerBuilder();
-        serverBuilder.port(redisPort);
-        RedisServer server = serverBuilder.build();
-        server.start();
-        return server;
-    }
+//    @Bean(destroyMethod = "stop")
+//    RedisServer getRedisServer(@Value("${spring.redis.port}") int redisPort) {
+//        RedisServerBuilder serverBuilder = new RedisServerBuilder();
+//        serverBuilder.port(redisPort);
+//        RedisServer server = serverBuilder.build();
+//        server.start();
+//        return server;
+//    }
 }

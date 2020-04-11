@@ -36,10 +36,6 @@ spring:
           auth: true
           starttls:
             enable: true
-  redis:
-    port: 85
-  cache:
-    type: redis
 server:
   port: 80
 BASE_PATH: "E:\\Newfolder"
